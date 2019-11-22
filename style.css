@@ -1,0 +1,219 @@
+body{
+	background-color:black;
+}
+
+h1 {
+	font-family: 'Bebas Neue', cursive;
+	text-align:center;
+	line-height: 30px;
+	font-size: 100px;
+	color: white;
+}
+
+h2{
+	font-family: 'Bebas Neue', cursive;
+	text-align:center;
+	line-height: 30px;
+	font-size: 80px;
+	color:grey;
+}
+
+h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	color: white;
+}
+
+p{
+	font-family: 'Calistoga', cursive;
+	color: white;
+	font-size: 15px;
+}
+
+.buttons{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width:10%;
+	height:10px;
+	margin-left: 670px;
+}
+
+#linkedin{
+	zoom: 20%;
+}
+
+#linkedin:hover{
+	zoom:25%;
+}
+
+#facebook{
+	zoom: 9%;
+}
+
+#facebook:hover{
+	zoom: 14%;
+}
+
+.container_travels{
+	margin-top: 100px
+}
+
+.container_countries{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	height: 200px;
+}
+
+.australia{
+	display:block;
+	position: relative;
+	background-image: url(images/uluru.jpg);
+	background-size:cover;
+	height: 200px;
+	width: 350px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px white;
+}
+
+.australia h3{
+	position: absolute;
+	bottom: -100px;
+	left: 100px;
+}
+
+.australia p{
+	text-align: center;
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+}
+
+.australia audio{
+	position: absolute;
+	bottom: -125px;
+	left: 60px;
+	zoom: 80%;
+}
+
+.indonesia{
+	display:block;
+	position: relative;
+	background-image: url(images/bali.jpg);
+	background-size: cover;
+	height: 200px;
+	width: 350px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px white;
+}
+
+.indonesia h3{
+	position: absolute;
+	bottom: -100px;
+	left: 110px;
+}
+
+.indonesia p{
+	text-align: center;
+	position: absolute;
+	left: 175px;
+}
+
+.indonesia audio{
+	position: absolute;
+	bottom: -125px;
+	left: 60px;
+	zoom: 80%;
+}
+
+.spain{
+	display:block;
+	position: relative;
+	background-image: url(images/Barcelona.jpg);
+	background-size:cover;
+	height: 200px;
+	width: 350px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px white;
+}
+.spain h3{
+	position: absolute;
+	bottom: -100px;
+	left: 150px;
+}
+
+.spain p{
+	position: absolute;
+	top: -5px;
+	left: 10px;
+}
+
+.spain audio{
+	position: absolute;
+	bottom: -125px;
+	left: 60px;
+	zoom:80%;
+}
+
+.container_family{
+	margin-top: 200px
+}
+
+.container_fam_anecdotes{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	width: 100%;
+	height: 200px;
+	margin-top: 75px;
+}
+
+.fireworks video{
+	display:block;
+	position: relative;
+	height: 200px;
+	width: 350px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px white;
+}
+
+.fireworks h3{
+	position: absolute;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	color: white;
+	bottom: -100px;
+	left: 300px;
+}
+
+.fireworks p{
+	position: absolute;
+	top: -45px;
+	left: 180px;
+}
+
+.world_champion{
+	background-image: url(images/champion.jpg);
+	background-size: cover;
+	position: relative;
+	height: 200px;
+	width: 350px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px white;
+}
+
+.world_champion h3{
+	position: absolute;
+	bottom: -100px;
+	left: 90px;
+}
+
+.world_champion p{
+	text-align: center;
+	position: absolute;
+	top: -60px;
+	right: 40px;
+}
